@@ -1,2 +1,23 @@
-# nim-libnotify
-A minimalistic libnotify wrapper
+### nim-libnotify
+
+A minimalistic libnotify wrapper for Linux desktop notifications written in Nim.
+
+#### Installation
+
+.You need to install libglib2:
+[source, bash]
+----
+sudo apt install libglib2.0-0
+----
+
+.Then run:
+[source, bash]
+----
+nimble install libnotify
+----
+
+#### Testing
+[source, bash]
+----
+cd .nimble/pkgs/libnotify-<version> && nim c -r test_libnotify
+----
