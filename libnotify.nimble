@@ -1,6 +1,6 @@
 [Package]
 name          = "libnotify"
-version       = "0.0.1"
+version       = "0.0.2"
 author        = "Federico Ceratto"
 description   = "Minimalistic libnotify wrapper."
 license       = "LGPLv3"
