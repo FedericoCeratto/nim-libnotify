@@ -6,4 +6,4 @@ description   = "Minimalistic libnotify wrapper."
 license       = "LGPLv3"
 
 [Deps]
-Requires: "nim >= 0.12"
+Requires: "nim >= 0.12", "gtk2 >= 1.3"
