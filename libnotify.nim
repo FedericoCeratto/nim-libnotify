@@ -70,7 +70,6 @@ proc send_new_notification*(self: NotifyClient, summary, body, icon_fname: strin
     urgency=NotificationUrgency.Normal) =
   ## Show a notification. Optionally specify a timeout in milliseconds and an
   ## urgency as a NotificationUrgency.Low / Normal / Critical
-  echo "cstring ", icon_fname.cstring
   let n = notify_notification_new(summary.cstring, body.cstring, icon_fname.cstring)
 
   notify_notification_set_urgency(n, urgency)
